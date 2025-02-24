@@ -1,6 +1,7 @@
 import os
-import time
+os.system("pip install pyTelegramBotAPI")
 import telebot
+import time
 from flask import Flask, request
 
 # Cargar el token de entorno (Railway lo manejará como variable de entorno)
